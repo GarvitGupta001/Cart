@@ -1,0 +1,75 @@
+div.disappear{
+    font-size: 0px;
+}
+div.noBorder{
+    border: none;
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    top: 0px;
+}
+img.cart {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+}
+p#detailedItems {
+    font-family: cursive;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+}
+h1#totalItems {
+    position: absolute;
+    top: 0px;
+    right: 45px;
+}
+p#totalPrice {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    font-family: cursive;
+}
+p#shipping {
+    font-family: cursive;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+}
+div {
+    display: inline-block;
+    margin: 5px;
+    border: solid 2px;
+    padding: 15px;
+}
+img {
+    height: 190px;
+    width: 190px;
+}
+p.product {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: gray;
+}
+p.price {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: goldenrod;
+}
+button.addItem {
+    border: solid 1px;
+    background-color: yellow;
+    padding: 12px;
+    border-radius: 60px;
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 14px;
+}
+button.removeItem {
+    border: none;
+}
+h1 {
+    font-family: cursive;
+}

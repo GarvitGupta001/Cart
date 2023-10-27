@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="style.css"></head>
+<html>
+    <body>
+        <h1>Online Store</h1>
+        <img onclick="showDetails()" class="cart" src="images.png">
+        <h1 id="totalItems">0</h1>
+        <div class="noBorder disappear" id="details">
+            <p id="detailedItems">0</p>
+            <p id="totalPrice">Cart Total: $0</p>
+            <p id="shipping">Shipping: $50</p>
+        </div>
+        <div>
+            <img src="heritage-printed-backpack-kxNBG0.jpg">
+            <p class="product">Backpack</p>
+            <p class="price">$200</p>
+            <button class="addItem" onclick="add(Backpack)">Add to cart</button>
+            <button id="removeBackpack" class="removeItem" onclick="remove(Backpack)"></button>
+        </div>
+        <div>
+            <img src="1536120359_1433711.jpg">
+            <p class="product">Camera</p>
+            <p class="price">$500</p>
+            <button id="add" class="addItem" onclick="add(Camera)">Add to cart</button>
+            <button id="removeCamera" class="removeItem" onclick="remove(Camera)"></button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
